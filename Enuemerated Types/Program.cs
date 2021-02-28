@@ -13,6 +13,7 @@ namespace Enuemerated_Types
             q2();
             q4();
             q5andq6();
+            colours();
             Console.ReadKey();
                 
         }
@@ -77,6 +78,16 @@ namespace Enuemerated_Types
             foreach(Cards_C item in hand)
             {
                 item.print();
+            }
+        }
+        static void colours()
+        {
+            for(int i =0; i<15;++i)
+            {
+                bool valid = Enum.TryParse(i.ToString(), out Colours colour);
+                if (valid)
+                    Console.WriteLine((Colours)i);
+                
             }
         }
     }

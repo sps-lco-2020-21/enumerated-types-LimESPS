@@ -57,7 +57,19 @@ namespace EnumLibrary_Suits
         C = 2,
         D = 4,
         H = 8,
+    }
 
+    public enum Colours
+    {
+        Red = 0b_0000_0001,
+        Yellow = 0b_0000_0010,
+        Blue = 0b_0000_0100,
+        Indigo = 0b_0000_1000,
         
+
+        Purple = Red | Blue,
+        Orange = Yellow | Red,
+        Violet = Red | Blue,
+        Green = Yellow | Blue
     }
 }
