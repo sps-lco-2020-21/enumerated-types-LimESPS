@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Enuemerated Types", "Enuemerated Types.csproj", "{CE90A6B1-F1CD-4D6D-A91F-65198BA3276F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumLibrary_Suits", "..\EnumLibrary_Suits\EnumLibrary_Suits.csproj", "{06650107-7002-4D7C-A208-91DDBC8D9AA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE90A6B1-F1CD-4D6D-A91F-65198BA3276F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE90A6B1-F1CD-4D6D-A91F-65198BA3276F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE90A6B1-F1CD-4D6D-A91F-65198BA3276F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE90A6B1-F1CD-4D6D-A91F-65198BA3276F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06650107-7002-4D7C-A208-91DDBC8D9AA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06650107-7002-4D7C-A208-91DDBC8D9AA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06650107-7002-4D7C-A208-91DDBC8D9AA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06650107-7002-4D7C-A208-91DDBC8D9AA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71785427-4535-4B73-8152-3A6F051F33DA}
+	EndGlobalSection
+EndGlobal

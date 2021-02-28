@@ -16,12 +16,7 @@ namespace EnumConsole
             Console.ReadKey();
             Parsing();
             Console.ReadKey();
-            Casting();
-            Console.ReadKey();
-            IteratingFlags();           
-            Console.ReadKey();
-            ExtensionMethods();
-            Console.ReadKey();
+            
         }
 
         static void AssignPrintIncrement()
@@ -100,7 +95,6 @@ namespace EnumConsole
             Months m = Months.January;
             Months n = MonthUtilities.NextMonth(m);
             Console.WriteLine($"The month after {m:G} is {n:G}.");
-
             m = Months.December;
             n = m.NextMonthE();
             Console.WriteLine($"The month after {m:G} is {n:G}.");

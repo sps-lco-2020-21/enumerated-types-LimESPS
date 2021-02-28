@@ -14,8 +14,9 @@ namespace EnumLibrary
         Diamonds = 4,
         Hearts = 8, 
 
-        Red = Diamonds | Hearts, 
+        Red = Diamonds | Hearts, //diamonds or hearts are red
         Black = Spades | Clubs 
+           
 
 
     }
