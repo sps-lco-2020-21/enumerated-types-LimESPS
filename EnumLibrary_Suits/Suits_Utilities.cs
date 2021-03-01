@@ -90,6 +90,10 @@ namespace EnumLibrary_Suits
             }
             return hand;
         }
+        public static Colours combine(Colours a, Colours b)
+        {
+            return a | b;
+        }
 
     }
 }

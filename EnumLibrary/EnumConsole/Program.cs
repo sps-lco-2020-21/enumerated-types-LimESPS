@@ -42,7 +42,7 @@ namespace EnumConsole
 
 
 
-            string m2 = "5";
+            string m2 = "13"; //still prints 13
             success = Enum.TryParse<Months>(m2, out Months mo2);
 
             if (success)

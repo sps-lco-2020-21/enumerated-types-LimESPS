@@ -61,7 +61,7 @@ namespace Enuemerated_Types
         }
         static void q5andq6()
         {
-            List<Cards_C> Deck = new List<Cards_C>();
+            List<Cards_C> Deck = new List<Cards_C>(); //is this valid method?
            
             for(int i = 1; i <= 13; ++i)
             {
@@ -72,23 +72,32 @@ namespace Enuemerated_Types
                 }
             }
             
-            int n = 10;
+            int n = 5;
             List<Cards_C> hand = Deck.shuffle(n);
             Console.WriteLine($"Your shuffled hand of {n} cards is: ");
             foreach(Cards_C item in hand)
             {
                 item.print();
             }
+            q7_poker(hand);
+        }
+        static void q7_poker(List<Cards_C> hand)
+        {
+
         }
         static void colours()
         {
             for(int i =0; i<15;++i)
             {
-                bool valid = Enum.TryParse(i.ToString(), out Colours colour);
-                if (valid)
-                    Console.WriteLine((Colours)i);
-                
+                Colours m = (Colours)i;
+                string z = m.ToString();
+                Console.WriteLine($"z is {z}");
+                bool justnum = int.TryParse(z, out int mo); //trying to program so that only colours are printed, not numbers
+                if (!justnum)
+                    Console.WriteLine($"{mo} is the result");
             }
+            Console.WriteLine(Suits_Utilities.combine(Colours.Blue, Colours.Yellow));
+
         }
     }
 }

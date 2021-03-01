@@ -31,7 +31,8 @@ namespace EnumLibrary_Suits
         Twelve = 12,
         King = 13,
 
-        Ace = One | Eleven
+        Ace = One | Eleven,
+        
     }
     public enum Card_S
     {
@@ -61,10 +62,10 @@ namespace EnumLibrary_Suits
 
     public enum Colours
     {
-        Red = 0b_0000_0001,
-        Yellow = 0b_0000_0010,
-        Blue = 0b_0000_0100,
-        Indigo = 0b_0000_1000,
+        Red = 1,
+        Yellow = 2,
+        Blue = 4,
+        Indigo = 8,
         
 
         Purple = Red | Blue,
